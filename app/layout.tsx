@@ -26,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
+      <link rel="icon" href="https://abs.twimg.com/favicons/twitter.ico" />
       <body suppressHydrationWarning={true} className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Provider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}

@@ -11,7 +11,6 @@ interface Props {
 }
 
 const SidebarAccount = ({ user }: Props) => {
-  console.log(user);
   return (
     <>
       {/* MOBILE SIDEBAR ACCOUNT */}
